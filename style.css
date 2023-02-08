@@ -44,7 +44,12 @@ body{
    border-radius: 5px;
    box-shadow: 0 3px 4px rgba(0,0,0,0.3);
    cursor: pointer;
-
-    
-
+}
+.btn:hover {
+    filter:brightness(0.9);
+    color:bisque;
+}
+.score{
+    color: green;
+    text-align: right;
 }
